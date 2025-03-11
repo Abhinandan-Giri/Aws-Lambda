@@ -1,0 +1,17 @@
+account_id: '890742610830'
+deploy_target_bucket: syndicate-education-platform-custom-sandbox-artifacts-6675/3bfb6220/task04
+expiration: 2025-03-11 18:41:11.914859+00:00
+extended_prefix_mode: true
+iam_permissions_boundary: undefined
+project_path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04
+region: eu-west-1
+resources_prefix: cmtr-3bfb6220-
+tags:
+  run_id: JAP-11
+  run_type: stm
+  type: user
+  user_id: 3bfb6220
+temp_aws_access_key_id: ASIA46ZDFTOHMJZF36D5
+temp_aws_secret_access_key: kRWCAse2NeBfTmkf05QQ9vniiUaIbVqlvbNA2pCi
+temp_aws_session_token: IQoJb3JpZ2luX2VjEGIaCXVzLWVhc3QtMSJIMEYCIQDrcheuQfReaaP1upENjyVS3N1lvf2egkXxDvxf0QHONAIhAK7IQxlSUsJ2IAzalUhLSK9t6jBzvwXak3R/yWypv+cYKucCCKv//////////wEQABoMODkwNzQyNjEwODMwIgwn7NiPdq2+JcJGs7EquwI59z//SxxkGjX10NCTJf/We0yJcRIQNszg7YM+vu5UyvjGOrULJOkZvLUGfnTekEa8BzYrzOM0sEngATifkDD8ox0sLcY5CyVq/YDfElvwZxprRMJSUDhJSgwDPAvRQJuNjuHloX5IUp6piwnEQTlQxWZQln4y+w5UTX10mNShIKThdotHZvj7nh7VIbiQiMg9o+y9tspq7/vyuxegmZx8ZP+65o1+FU4MT1iRU0JUunGvj8fro8+AzWPYRc2yunHmyZYUgrTczaTwopFpqwBiji02pTFUPGOR8/W9obKaSP8NV4VCQYGDyB1qKKED2mANvbkN+WtIy1t3J6iKxmscTOqv0aJUJGgaqaJwT2wK9Yun6dnwaAjact3+u29jE4a6cQAy1hOJ/BzL9cIVQic+yO1KZ2Our25ZARcwhvDBvgY6nAEnIo7lTVvSFINaxulWnWyYdrmUueYHGYmHKJdLPs7eUgbcGOrOSyAgeF+x+Er4R+H7XRVcv27d6tN3zuH2SzGrp3LUgcnYcXK8ElliyTepM4ZJdfp7EZWeRgMCMWbHk+tpG+CJriLDlv79Ful+6ZFAT87O6gD8Y4S8ssFX+4hCPHYu2C8o0kDldcsVmxM+nSbYh5n13AFYWtPz3DM=
+use_temp_creds: false
