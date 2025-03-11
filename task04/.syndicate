@@ -8,11 +8,60 @@ lambdas:
     runtime: nodejs
 locks:
   modification_lock:
-    last_modification_date: '2025-03-11T17:54:06Z'
-    is_locked: true
+    last_modification_date: '2025-03-11T18:14:33Z'
+    is_locked: false
     initiator: abhinandankumar_giri
-    locked_till: '2025-03-11T18:14:06Z'
 events:
+- operation: deploy
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.234224
+  deploy_name: task04
+  time_start: '2025-03-11T23:44:19Z'
+  time_end: '2025-03-11T23:44:33Z'
+  duration_sec: 14.854
+  status: failed
+  rollback_on_error: false
+- operation: build
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.234224
+  time_start: '2025-03-11T23:42:24Z'
+  time_end: '2025-03-11T23:42:29Z'
+  duration_sec: 5.247
+  status: succeeded
+- operation: upload
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.234224
+  time_start: '2025-03-11T23:42:27Z'
+  time_end: '2025-03-11T23:42:29Z'
+  duration_sec: 2.048
+  status: succeeded
+- operation: package_meta
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.234224
+  time_start: '2025-03-11T23:42:27Z'
+  time_end: '2025-03-11T23:42:27Z'
+  duration_sec: 0.004
+  status: succeeded
+- operation: assemble
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.234224
+  time_start: '2025-03-11T23:42:26Z'
+  time_end: '2025-03-11T23:42:27Z'
+  duration_sec: 1.55
+  status: succeeded
+- operation: assemble_node
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.234224
+  time_start: '2025-03-11T23:42:26Z'
+  time_end: '2025-03-11T23:42:27Z'
+  duration_sec: 1.538
+  status: succeeded
+- operation: test
+  initiator: abhinandankumar_giri
+  time_start: '2025-03-11T23:42:26Z'
+  time_end: '2025-03-11T23:42:26Z'
+  duration_sec: 0.001
+  status: succeeded
 - operation: build
   initiator: abhinandankumar_giri
   bundle_name: task04_250311.232140
@@ -54,4 +103,11 @@ events:
   time_end: '2025-03-11T23:21:41Z'
   duration_sec: 0.002
   status: succeeded
-latest_deploy: {}
+latest_deploy:
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.234224
+  deploy_name: task04
+  time_start: '2025-03-11T23:44:19Z'
+  time_end: '2025-03-11T23:44:33Z'
+  duration_sec: 14.854
+  is_succeeded: false
