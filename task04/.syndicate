@@ -8,10 +8,60 @@ lambdas:
     runtime: nodejs
 locks:
   modification_lock:
-    last_modification_date: '2025-03-11T18:14:33Z'
+    last_modification_date: '2025-03-11T18:27:35Z'
     is_locked: false
     initiator: abhinandankumar_giri
 events:
+- operation: deploy
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.235658
+  deploy_name: task04
+  time_start: '2025-03-11T23:57:19Z'
+  time_end: '2025-03-11T23:57:35Z'
+  duration_sec: 16.04
+  status: failed
+  rollback_on_error: false
+- operation: build
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.235658
+  time_start: '2025-03-11T23:56:58Z'
+  time_end: '2025-03-11T23:57:04Z'
+  duration_sec: 5.756
+  status: succeeded
+- operation: upload
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.235658
+  time_start: '2025-03-11T23:57:02Z'
+  time_end: '2025-03-11T23:57:04Z'
+  duration_sec: 2.294
+  status: succeeded
+- operation: package_meta
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.235658
+  time_start: '2025-03-11T23:57:02Z'
+  time_end: '2025-03-11T23:57:02Z'
+  duration_sec: 0.006
+  status: succeeded
+- operation: assemble
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.235658
+  time_start: '2025-03-11T23:57:00Z'
+  time_end: '2025-03-11T23:57:02Z'
+  duration_sec: 1.575
+  status: succeeded
+- operation: assemble_node
+  initiator: abhinandankumar_giri
+  bundle_name: task04_250311.235658
+  time_start: '2025-03-11T23:57:00Z'
+  time_end: '2025-03-11T23:57:02Z'
+  duration_sec: 1.559
+  status: succeeded
+- operation: test
+  initiator: abhinandankumar_giri
+  time_start: '2025-03-11T23:57:00Z'
+  time_end: '2025-03-11T23:57:00Z'
+  duration_sec: 0.002
+  status: succeeded
 - operation: deploy
   initiator: abhinandankumar_giri
   bundle_name: task04_250311.234224
@@ -105,9 +155,9 @@ events:
   status: succeeded
 latest_deploy:
   initiator: abhinandankumar_giri
-  bundle_name: task04_250311.234224
+  bundle_name: task04_250311.235658
   deploy_name: task04
-  time_start: '2025-03-11T23:44:19Z'
-  time_end: '2025-03-11T23:44:33Z'
-  duration_sec: 14.854
+  time_start: '2025-03-11T23:57:19Z'
+  time_end: '2025-03-11T23:57:35Z'
+  duration_sec: 16.04
   is_succeeded: false
