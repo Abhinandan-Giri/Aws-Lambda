@@ -1,0 +1,1468 @@
+2025-03-12 15:09:50,407 [INFO] USER:abhinandankumar_giri handlers.py:106:syndicate LOG: Configuration used: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:09:52,570 [WARNING] USER:abhinandankumar_giri __init__.py:190:initialize_project_state LOG: [93mConfig is set and generated but project state does not exist, seems that you've come from the previous version.[0m
+2025-03-12 15:09:52,570 [WARNING] USER:abhinandankumar_giri __init__.py:193:initialize_project_state LOG: [93mGenerating project state file (.syndicate) from the existing structure...[0m
+2025-03-12 15:09:52,574 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas.
+2025-03-12 15:09:52,575 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sns_handler' to the pending ProjectState.
+2025-03-12 15:09:52,575 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sqs_handler' to the pending ProjectState.
+2025-03-12 15:09:52,576 [INFO] USER:abhinandankumar_giri processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:09:53,920 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:09:53,920 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:09:54,265 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:09:55,659 [INFO] USER:abhinandankumar_giri handlers.py:142:test LOG: Running tests...
+2025-03-12 15:09:55,660 [INFO] USER:abhinandankumar_giri handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/abhinandankumar_giri/Desktop/Campus Training/aws/Aws-Lambda/task04'.
+2025-03-12 15:09:55,660 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.000562
+2025-03-12 15:09:55,665 [INFO] USER:abhinandankumar_giri handlers.py:993:assemble LOG: Building artifacts, bundle: task04_250312.150954
+2025-03-12 15:09:55,666 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\jsrc\main\java\com\task04.
+2025-03-12 15:09:55,666 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\src\lambdas.
+2025-03-12 15:09:55,666 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas.
+2025-03-12 15:09:55,666 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sns_handler' to the pending ProjectState.
+2025-03-12 15:09:55,666 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sqs_handler' to the pending ProjectState.
+2025-03-12 15:09:55,666 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\dnapp\lambdas.
+2025-03-12 15:09:55,666 [INFO] USER:abhinandankumar_giri project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\swagger_src.
+2025-03-12 15:09:55,666 [INFO] USER:abhinandankumar_giri project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\appsync_src.
+2025-03-12 15:09:55,671 [INFO] USER:abhinandankumar_giri handlers.py:821:assemble_node LOG: Command assemble node: project_path: app 
+2025-03-12 15:09:55,671 [INFO] USER:abhinandankumar_giri nodejs.py:58:assemble_node_lambdas LOG: Going to package lambdas starting by path C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app
+2025-03-12 15:09:55,672 [INFO] USER:abhinandankumar_giri nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas\sns_handler
+2025-03-12 15:09:55,673 [INFO] USER:abhinandankumar_giri nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas\sqs_handler
+2025-03-12 15:09:56,039 [INFO] USER:abhinandankumar_giri nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev\bundles\task04_250312.150954\sqs_handler-1.0
+2025-03-12 15:09:56,040 [INFO] USER:abhinandankumar_giri nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev\bundles\task04_250312.150954\sns_handler-1.0
+2025-03-12 15:09:57,239 [INFO] USER:abhinandankumar_giri helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 872ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:09:57,239 [INFO] USER:abhinandankumar_giri nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:09:57,240 [INFO] USER:abhinandankumar_giri helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 872ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:09:57,240 [INFO] USER:abhinandankumar_giri nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:09:57,244 [INFO] USER:abhinandankumar_giri handlers.py:830:assemble_node LOG: NodeJS artifacts were prepared successfully.
+2025-03-12 15:09:57,245 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage assemble_node, elapsed time: 0:00:01.573985
+2025-03-12 15:09:57,249 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:01.584143
+2025-03-12 15:09:57,254 [INFO] USER:abhinandankumar_giri handlers.py:1037:package_meta LOG: Package meta, bundle: task04_250312.150954
+2025-03-12 15:09:57,254 [INFO] USER:abhinandankumar_giri meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/abhinandankumar_giri/Desktop/Campus Training/aws/Aws-Lambda/task04/bundles/task04_250312.150954
+2025-03-12 15:09:57,257 [INFO] USER:abhinandankumar_giri helper.py:292:write_content_to_file LOG: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev/bundles/task04_250312.150954\build_meta.json file was created.
+2025-03-12 15:09:57,257 [INFO] USER:abhinandankumar_giri handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-12 15:09:57,257 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.002825
+2025-03-12 15:09:57,453 [INFO] USER:abhinandankumar_giri handlers.py:1083:upload LOG: Upload bundle: task04_250312.150954
+2025-03-12 15:09:57,781 [INFO] USER:abhinandankumar_giri bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-12 15:09:58,907 [INFO] USER:abhinandankumar_giri handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-12 15:09:58,907 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:01.645202
+2025-03-12 15:09:58,912 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage build, elapsed time: 0:00:04.645842
+2025-03-12 15:10:29,517 [INFO] USER:abhinandankumar_giri handlers.py:106:syndicate LOG: Configuration used: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:10:31,677 [INFO] USER:abhinandankumar_giri processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:10:32,955 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:10:32,955 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:10:33,298 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:10:34,671 [INFO] USER:abhinandankumar_giri handlers.py:142:test LOG: Running tests...
+2025-03-12 15:10:34,672 [INFO] USER:abhinandankumar_giri handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/abhinandankumar_giri/Desktop/Campus Training/aws/Aws-Lambda/task04'.
+2025-03-12 15:10:34,672 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.001564
+2025-03-12 15:10:34,679 [INFO] USER:abhinandankumar_giri handlers.py:993:assemble LOG: Building artifacts, bundle: task04_250312.151033
+2025-03-12 15:10:34,680 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\jsrc\main\java\com\task04.
+2025-03-12 15:10:34,680 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\src\lambdas.
+2025-03-12 15:10:34,680 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas.
+2025-03-12 15:10:34,680 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sns_handler' to the pending ProjectState.
+2025-03-12 15:10:34,680 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sqs_handler' to the pending ProjectState.
+2025-03-12 15:10:34,681 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\dnapp\lambdas.
+2025-03-12 15:10:34,681 [INFO] USER:abhinandankumar_giri project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\swagger_src.
+2025-03-12 15:10:34,681 [INFO] USER:abhinandankumar_giri project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\appsync_src.
+2025-03-12 15:10:34,686 [INFO] USER:abhinandankumar_giri handlers.py:821:assemble_node LOG: Command assemble node: project_path: app 
+2025-03-12 15:10:34,687 [INFO] USER:abhinandankumar_giri nodejs.py:58:assemble_node_lambdas LOG: Going to package lambdas starting by path C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app
+2025-03-12 15:10:34,687 [INFO] USER:abhinandankumar_giri nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas\sns_handler
+2025-03-12 15:10:34,688 [INFO] USER:abhinandankumar_giri nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas\sqs_handler
+2025-03-12 15:10:35,052 [INFO] USER:abhinandankumar_giri nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev\bundles\task04_250312.151033\sns_handler-1.0
+2025-03-12 15:10:35,054 [INFO] USER:abhinandankumar_giri nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev\bundles\task04_250312.151033\sqs_handler-1.0
+2025-03-12 15:10:35,727 [INFO] USER:abhinandankumar_giri helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 343ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:10:35,727 [INFO] USER:abhinandankumar_giri nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:10:35,728 [INFO] USER:abhinandankumar_giri helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 344ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:10:35,728 [INFO] USER:abhinandankumar_giri nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:10:35,734 [INFO] USER:abhinandankumar_giri handlers.py:830:assemble_node LOG: NodeJS artifacts were prepared successfully.
+2025-03-12 15:10:35,734 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage assemble_node, elapsed time: 0:00:01.047780
+2025-03-12 15:10:35,743 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:01.063504
+2025-03-12 15:10:35,748 [INFO] USER:abhinandankumar_giri handlers.py:1037:package_meta LOG: Package meta, bundle: task04_250312.151033
+2025-03-12 15:10:35,749 [INFO] USER:abhinandankumar_giri meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/abhinandankumar_giri/Desktop/Campus Training/aws/Aws-Lambda/task04/bundles/task04_250312.151033
+2025-03-12 15:10:35,752 [INFO] USER:abhinandankumar_giri helper.py:292:write_content_to_file LOG: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev/bundles/task04_250312.151033\build_meta.json file was created.
+2025-03-12 15:10:35,752 [INFO] USER:abhinandankumar_giri handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-12 15:10:35,752 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.003866
+2025-03-12 15:10:35,923 [INFO] USER:abhinandankumar_giri handlers.py:1083:upload LOG: Upload bundle: task04_250312.151033
+2025-03-12 15:10:36,250 [INFO] USER:abhinandankumar_giri bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-12 15:10:37,447 [INFO] USER:abhinandankumar_giri handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-12 15:10:37,447 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:01.688911
+2025-03-12 15:10:37,456 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage build, elapsed time: 0:00:04.157696
+2025-03-12 15:10:52,007 [INFO] USER:abhinandankumar_giri handlers.py:106:syndicate LOG: Configuration used: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:10:54,173 [INFO] USER:abhinandankumar_giri processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:10:55,489 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:10:55,489 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:10:55,904 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:10:56,254 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:10:56,254 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:10:56,618 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:10:56,618 [INFO] USER:abhinandankumar_giri helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task04
+2025-03-12 15:10:56,976 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:10:56,976 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:10:57,331 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:10:57,331 [INFO] USER:abhinandankumar_giri helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task04_250312.151033
+2025-03-12 15:10:57,716 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:10:57,716 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:10:58,071 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:10:58,947 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:10:58,947 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:10:59,313 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:11:02,455 [INFO] USER:abhinandankumar_giri deployment_processor.py:451:create_deployment_resources LOG: The latest deployment has status failed. Loaded output:
+ {
+    "arn:aws:iam::890742610830:policy/cmtr-3bfb6220-lambda-basic-execution": {
+        "resource_name": "cmtr-3bfb6220-lambda-basic-execution",
+        "resource_meta": {
+            "policy_content": {
+                "Statement": [
+                    {
+                        "Action": [
+                            "logs:CreateLogGroup",
+                            "logs:CreateLogStream",
+                            "logs:PutLogEvents",
+                            "dynamodb:GetItem",
+                            "dynamodb:Query",
+                            "dynamodb:PutItem",
+                            "dynamodb:Batch*",
+                            "dynamodb:DeleteItem",
+                            "ssm:PutParameter",
+                            "ssm:GetParameter",
+                            "kms:Decrypt",
+                            "sqs:ReceiveMessage",
+                            "sqs:DeleteMessage",
+                            "sqs:GetQueueAttributes"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "*"
+                    }
+                ],
+                "Version": "2012-10-17"
+            },
+            "resource_type": "iam_policy",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            }
+        },
+        "description": {
+            "PolicyName": "cmtr-3bfb6220-lambda-basic-execution",
+            "PolicyId": "ANPA46ZDFTOHAC6EWHS74",
+            "Path": "/",
+            "DefaultVersionId": "v1",
+            "AttachmentCount": 3,
+            "PermissionsBoundaryUsageCount": 0,
+            "IsAttachable": true,
+            "CreateDate": "2025-03-11T13:20:51+00:00",
+            "UpdateDate": "2025-03-11T13:20:51+00:00",
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "3bfb6220"
+                }
+            ]
+        }
+    },
+    "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sqs_handler-role": {
+        "resource_name": "cmtr-3bfb6220-sqs_handler-role",
+        "resource_meta": {
+            "predefined_policies": [],
+            "principal_service": "lambda",
+            "custom_policies": [
+                "cmtr-3bfb6220-lambda-basic-execution"
+            ],
+            "resource_type": "iam_role",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "permissions_boundary": "undefined"
+        },
+        "description": {
+            "Path": "/",
+            "RoleName": "cmtr-3bfb6220-sqs_handler-role",
+            "RoleId": "AROA46ZDFTOHMDHWX3V7Y",
+            "CreateDate": "2025-03-11T13:20:54+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600,
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "3bfb6220"
+                }
+            ],
+            "RoleLastUsed": {
+                "LastUsedDate": "2025-03-11T17:56:01+00:00",
+                "Region": "eu-west-1"
+            }
+        }
+    },
+    "arn:aws:sqs:eu-west-1:890742610830:cmtr-3bfb6220-async_queue": {
+        "resource_name": "cmtr-3bfb6220-async_queue",
+        "resource_meta": {
+            "resource_type": "sqs_queue",
+            "fifo_queue": false,
+            "visibility_timeout": 150,
+            "delay_seconds": 0,
+            "maximum_message_size": 1024,
+            "message_retention_period": 60,
+            "receive_message_wait_time_seconds": 0,
+            "policy": {},
+            "redrive_policy": {},
+            "content_based_deduplication": false,
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "region": "eu-west-1"
+        },
+        "description": {
+            "Attributes": {
+                "QueueArn": "arn:aws:sqs:eu-west-1:890742610830:cmtr-3bfb6220-async_queue",
+                "ApproximateNumberOfMessages": "0",
+                "ApproximateNumberOfMessagesNotVisible": "0",
+                "ApproximateNumberOfMessagesDelayed": "0",
+                "CreatedTimestamp": "1741701015",
+                "LastModifiedTimestamp": "1741701015",
+                "VisibilityTimeout": "150",
+                "MaximumMessageSize": "1024",
+                "MessageRetentionPeriod": "60",
+                "DelaySeconds": "0",
+                "ReceiveMessageWaitTimeSeconds": "0",
+                "SqsManagedSseEnabled": "true"
+            },
+            "ResponseMetadata": {
+                "RequestId": "04e5cc3b-38ea-570e-948e-ac71ba3ba0ab",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amzn-requestid": "04e5cc3b-38ea-570e-948e-ac71ba3ba0ab",
+                    "date": "Tue, 11 Mar 2025 18:27:29 GMT",
+                    "content-type": "text/xml",
+                    "content-length": "1249",
+                    "connection": "keep-alive"
+                },
+                "RetryAttempts": 0
+            }
+        }
+    },
+    "arn:aws:lambda:eu-west-1:890742610830:function:cmtr-3bfb6220-sqs_handler:dev": {
+        "resource_name": "cmtr-3bfb6220-sqs_handler",
+        "resource_meta": {
+            "version": "1.0",
+            "name": "cmtr-3bfb6220-sqs_handler",
+            "func_name": "lambdas/sqs_handler/index.handler",
+            "resource_type": "lambda",
+            "iam_role_name": "cmtr-3bfb6220-sqs_handler-role",
+            "runtime": "nodejs20.x",
+            "memory": 128,
+            "timeout": 100,
+            "lambda_path": "lambdas\\sqs_handler",
+            "dependencies": [],
+            "event_sources": [
+                {
+                    "resource_type": "sns_topic_trigger",
+                    "target_topic": "cmtr-3bfb6220-lambda_topic",
+                    "region": "eu-west-1"
+                }
+            ],
+            "env_variables": {},
+            "publish_version": true,
+            "alias": "dev",
+            "url_config": {},
+            "ephemeral_storage": 512,
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "s3_path": "task04_250311.235658/sqs_handler-1.0.zip",
+            "region": "eu-west-1"
+        },
+        "description": {
+            "ResponseMetadata": {
+                "RequestId": "f7182e09-47a3-4385-a624-e6560c3a3741",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "date": "Tue, 11 Mar 2025 18:27:33 GMT",
+                    "content-type": "application/json",
+                    "content-length": "2843",
+                    "connection": "keep-alive",
+                    "x-amzn-requestid": "f7182e09-47a3-4385-a624-e6560c3a3741"
+                },
+                "RetryAttempts": 0
+            },
+            "Configuration": {
+                "FunctionName": "cmtr-3bfb6220-sqs_handler",
+                "Runtime": "nodejs20.x",
+                "Role": "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sqs_handler-role",
+                "Handler": "lambdas/sqs_handler/index.handler",
+                "CodeSize": 1638,
+                "Description": " ",
+                "Timeout": 100,
+                "MemorySize": 128,
+                "LastModified": "2025-03-11T17:54:21.287+0000",
+                "CodeSha256": "k15HZ6W3VW9Ch9pThwXLsMDO4MX8cNH2hnvGzk5Ktgw=",
+                "Version": "$LATEST",
+                "TracingConfig": {
+                    "Mode": "PassThrough"
+                },
+                "RevisionId": "6d01588d-92f7-48c9-b9d9-05add6e2f12c",
+                "Layers": [],
+                "State": "Active",
+                "LastUpdateStatus": "Successful",
+                "PackageType": "Zip",
+                "Architectures": [
+                    "x86_64"
+                ],
+                "EphemeralStorage": {
+                    "Size": 512
+                },
+                "SnapStart": {
+                    "ApplyOn": "None",
+                    "OptimizationStatus": "Off"
+                },
+                "RuntimeVersionConfig": {
+                    "RuntimeVersionArn": "arn:aws:lambda:eu-west-1::runtime:9d084cce5cc7578c503eb8fe4bf7891c94c8f5f0ccb036f3f8c3a01cf5212db6"
+                }
+            },
+            "Code": {
+                "RepositoryType": "S3",
+                "Location": "https://awslambda-eu-west-1-tasks.s3.eu-west-1.amazonaws.com/snapshots/890742610830/cmtr-3bfb6220-sqs_handler-56d605a7-c8f2-4c3b-b215-45f21c02b087?versionId=PoGWFAlMZGgP3NsYLKIrDQxs.BCq3bz7&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFoaCWV1LXdlc3QtMSJGMEQCIFHQtUaGIRsGuJSDNl1nle8aCWmx026oJdTZqeDLtSXZAiBq8HwtBVqE4HDK2SZx6Kia2MUR9iNDgROttD2X043F3CqSAgij%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAQaDDk1NDM2OTA4MjUxMSIM7%2FhQf9m%2BSAlPSOFCKuYBbh04HiDTYJYMAyXQdXNeOh2nmgT%2FQSVIBQxtZ9IkCOqDNcxO50zflFxVtiEICxnCwtJZONJlwtVtlwEjqrE7bMU%2FEHAYuVsNSkHFP5fZRqsMXsxXqAYUHubPLfCHNprlt3O7ssY%2FSf2CyfHu26zxBW80Ubb1l%2Bm6FJnOIMaBh5Mep07UAvAeg7CT%2FbWdA%2FnRWkz4t2WZ1NbQxQRnWExYFtor5su3uJvsbD4BWv9EqDryGsFDH%2Fetn%2BQD8TDFkfcKBM99r9XcdLB1X%2BPBcq9dp6e7dZMdretVIo9vdRCZIhJJvxejVGkw%2FovAvgY6kAE9wMZNdRqowyfKCxEXFQKnjqqV%2B7bse7XJQV0sSZAU92MrDSHRd94GmIz%2B0AZmdPtOi1NVud6xwChLJy73zUhMEYExTAqPq0OkfkAHIkaJWm7SLwbO9%2FzHSftQZ8Fa9qZi3j2NZfXQWy%2B3NFUxLEXEh6qzrai3sOnVj1TMi2x0q1LVEZbFGj7J72zcD7fAyqw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250311T182733Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA54NGUQSHQSZSNOGX%2F20250311%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=caa66dbcf45387eb9892b52b88f35a0b444481e92e98d33e94fdb17d115b79b5"
+            },
+            "Tags": {
+                "run_id": "JAP-11",
+                "user_id": "3bfb6220",
+                "run_type": "stm",
+                "type": "user"
+            }
+        }
+    }
+}
+2025-03-12 15:11:02,632 [INFO] USER:abhinandankumar_giri deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-03-12 15:11:02,635 [INFO] USER:abhinandankumar_giri deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-03-12 15:11:02,806 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing iam_policy resources
+2025-03-12 15:11:04,352 [WARNING] USER:abhinandankumar_giri iam_resource.py:115:_create_policy_from_meta LOG: IAM policy cmtr-3bfb6220-lambda-basic-execution exists.
+2025-03-12 15:11:04,649 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing iam_role resources
+2025-03-12 15:11:06,008 [WARNING] USER:abhinandankumar_giri iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-3bfb6220-sqs_handler-role exists.
+2025-03-12 15:11:14,271 [INFO] USER:abhinandankumar_giri iam_resource.py:183:_create_role_from_meta LOG: Created IAM role cmtr-3bfb6220-sns_handler-role.
+2025-03-12 15:11:14,272 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing sns_topic resources
+2025-03-12 15:11:15,351 [ERROR] USER:abhinandankumar_giri deployment_processor.py:387:process_response LOG: Caused by resource named cmtr-3bfb6220-lambda_topic. An error occurred (AuthorizationError) when calling the ListTopics operation: User: arn:aws:sts::890742610830:assumed-role/cmtr_syndicate_student_programmatic_accessv2/3bfb6220 is not authorized to perform: SNS:ListTopics on resource: arn:aws:sns:eu-central-1:890742610830:* with an explicit deny in a service control policy
+2025-03-12 15:11:15,351 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing sqs_queue resources
+2025-03-12 15:11:16,424 [WARNING] USER:abhinandankumar_giri sqs_resource.py:104:_create_sqs_queue_from_meta LOG: SQS queue cmtr-3bfb6220-async_queue exists.
+2025-03-12 15:11:16,590 [INFO] USER:abhinandankumar_giri deployment_processor.py:88:_process_resources LOG: Processing lambda resources
+2025-03-12 15:11:18,696 [WARNING] USER:abhinandankumar_giri lambda_resource.py:313:_create_lambda_from_meta LOG: cmtr-3bfb6220-sqs_handler lambda exists.
+2025-03-12 15:11:22,983 [INFO] USER:abhinandankumar_giri lambda_resource.py:1394:_resolve_log_group LOG: Cloud Watch log group for lambda: cmtr-3bfb6220-sns_handler does not exists. Creating new log group with name: aws/lambda/cmtr-3bfb6220-sns_handler
+2025-03-12 15:11:25,220 [WARNING] USER:abhinandankumar_giri lambda_resource.py:943:_create_sns_topic_trigger_from_meta LOG: SNS topic cmtr-3bfb6220-lambda_topic does not exist and could not be configured as a trigger for lambda cmtr-3bfb6220-sns_handler
+2025-03-12 15:11:27,978 [WARNING] USER:abhinandankumar_giri bundle_processor.py:110:remove_failed_deploy_output LOG: Failed output file for deploy task04 does not exist
+2025-03-12 15:11:27,978 [INFO] USER:abhinandankumar_giri deployment_processor.py:527:create_deployment_resources LOG: Going to apply post deployment tags
+2025-03-12 15:11:27,986 [INFO] USER:abhinandankumar_giri group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
+2025-03-12 15:11:27,986 [INFO] USER:abhinandankumar_giri deployment_processor.py:530:create_deployment_resources LOG: Going to create deploy output
+2025-03-12 15:11:28,474 [INFO] USER:abhinandankumar_giri bundle_processor.py:71:create_deploy_output LOG: Output file with name task04_250312.151033/outputs/task04_failed.json has been created
+2025-03-12 15:11:28,474 [INFO] USER:abhinandankumar_giri deployment_processor.py:560:create_deployment_resources LOG: Deploy output for task04 was created.
+2025-03-12 15:11:28,474 [WARNING] USER:abhinandankumar_giri handlers.py:344:deploy LOG: Backend resources were deployed with errors. See deploy output file.
+2025-03-12 15:11:28,475 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:29.161087
+2025-03-12 15:11:28,809 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:11:28,809 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:11:29,138 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:11:36,986 [INFO] USER:abhinandankumar_giri s3_resource.py:40:validate_bucket_name LOG: Starting validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 15:11:36,986 [INFO] USER:abhinandankumar_giri s3_resource.py:73:validate_bucket_name LOG: Finished validating bucket name 'syndicate-education-platform-custom-sandbox-artifacts-6675'
+2025-03-12 15:11:36,986 [INFO] USER:abhinandankumar_giri helper.py:525:convert LOG: Stripping run_id:JAP-11,run_type:stm,type:user,user_id:3bfb6220 from "," a bit..
+2025-03-12 15:11:36,986 [INFO] USER:abhinandankumar_giri helper.py:529:convert LOG: Converting: run_id:JAP-11,run_type:stm,type:user,user_id:3bfb6220 to dict..
+2025-03-12 15:11:36,986 [INFO] USER:abhinandankumar_giri helper.py:541:convert LOG: Converted to such a dict: {'run_id': 'JAP-11', 'run_type': 'stm', 'type': 'user', 'user_id': '3bfb6220'}
+2025-03-12 15:11:39,024 [WARNING] USER:abhinandankumar_giri generator.py:76:generate_configuration_files LOG: The config_path property is not specified. The working directory is used
+2025-03-12 15:11:39,024 [ERROR] USER:abhinandankumar_giri __init__.py:44:_mkdir LOG: [WinError 183] Cannot create a file when that file already exists: 'C:\\Users\\abhinandankumar_giri\\Desktop\\Campus Training\\aws\\Aws-Lambda\\task04\\.syndicate-config-dev'
+2025-03-12 15:11:39,024 [WARNING] USER:abhinandankumar_giri generator.py:93:generate_configuration_files LOG: The "project_path" property is not specified. The working directory will be used as a project path. To change the path, edit the syndicate.yml by path C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:11:39,027 [INFO] USER:abhinandankumar_giri generator.py:155:generate_configuration_files LOG: Syndicate initialization has been completed. 
+Set SDCT_CONF:
+Unix: export SDCT_CONF="C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev"
+Windows: setx SDCT_CONF C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:11:39,028 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage config, elapsed time: 0:00:02.041986
+2025-03-12 15:11:47,684 [INFO] USER:abhinandankumar_giri handlers.py:106:syndicate LOG: Configuration used: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:11:49,845 [INFO] USER:abhinandankumar_giri processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:11:51,342 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:11:51,342 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:11:51,739 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:11:53,483 [INFO] USER:abhinandankumar_giri handlers.py:142:test LOG: Running tests...
+2025-03-12 15:11:53,483 [INFO] USER:abhinandankumar_giri handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/abhinandankumar_giri/Desktop/Campus Training/aws/Aws-Lambda/task04'.
+2025-03-12 15:11:53,484 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.000958
+2025-03-12 15:11:53,492 [INFO] USER:abhinandankumar_giri handlers.py:993:assemble LOG: Building artifacts, bundle: task04_250312.151151
+2025-03-12 15:11:53,492 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\jsrc\main\java\com\task04.
+2025-03-12 15:11:53,493 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\src\lambdas.
+2025-03-12 15:11:53,493 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas.
+2025-03-12 15:11:53,493 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sns_handler' to the pending ProjectState.
+2025-03-12 15:11:53,494 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sqs_handler' to the pending ProjectState.
+2025-03-12 15:11:53,494 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\dnapp\lambdas.
+2025-03-12 15:11:53,494 [INFO] USER:abhinandankumar_giri project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\swagger_src.
+2025-03-12 15:11:53,494 [INFO] USER:abhinandankumar_giri project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\appsync_src.
+2025-03-12 15:11:53,501 [INFO] USER:abhinandankumar_giri handlers.py:821:assemble_node LOG: Command assemble node: project_path: app 
+2025-03-12 15:11:53,502 [INFO] USER:abhinandankumar_giri nodejs.py:58:assemble_node_lambdas LOG: Going to package lambdas starting by path C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app
+2025-03-12 15:11:53,502 [INFO] USER:abhinandankumar_giri nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas\sns_handler
+2025-03-12 15:11:53,503 [INFO] USER:abhinandankumar_giri nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas\sqs_handler
+2025-03-12 15:11:53,871 [INFO] USER:abhinandankumar_giri nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev\bundles\task04_250312.151151\sns_handler-1.0
+2025-03-12 15:11:53,871 [INFO] USER:abhinandankumar_giri nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev\bundles\task04_250312.151151\sqs_handler-1.0
+2025-03-12 15:11:54,542 [INFO] USER:abhinandankumar_giri helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 346ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:11:54,543 [INFO] USER:abhinandankumar_giri nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:11:54,546 [INFO] USER:abhinandankumar_giri helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 347ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:11:54,546 [INFO] USER:abhinandankumar_giri nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:11:54,551 [INFO] USER:abhinandankumar_giri handlers.py:830:assemble_node LOG: NodeJS artifacts were prepared successfully.
+2025-03-12 15:11:54,552 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage assemble_node, elapsed time: 0:00:01.050979
+2025-03-12 15:11:54,558 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:01.066300
+2025-03-12 15:11:54,565 [INFO] USER:abhinandankumar_giri handlers.py:1037:package_meta LOG: Package meta, bundle: task04_250312.151151
+2025-03-12 15:11:54,566 [INFO] USER:abhinandankumar_giri meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/abhinandankumar_giri/Desktop/Campus Training/aws/Aws-Lambda/task04/bundles/task04_250312.151151
+2025-03-12 15:11:54,568 [INFO] USER:abhinandankumar_giri helper.py:292:write_content_to_file LOG: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev/bundles/task04_250312.151151\build_meta.json file was created.
+2025-03-12 15:11:54,569 [INFO] USER:abhinandankumar_giri handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-12 15:11:54,569 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.003625
+2025-03-12 15:11:54,744 [INFO] USER:abhinandankumar_giri handlers.py:1083:upload LOG: Upload bundle: task04_250312.151151
+2025-03-12 15:11:55,108 [INFO] USER:abhinandankumar_giri bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-12 15:11:56,488 [INFO] USER:abhinandankumar_giri handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-12 15:11:56,489 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:01.912746
+2025-03-12 15:11:56,500 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage build, elapsed time: 0:00:04.760622
+2025-03-12 15:12:00,333 [INFO] USER:abhinandankumar_giri handlers.py:106:syndicate LOG: Configuration used: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:12:02,483 [INFO] USER:abhinandankumar_giri processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:12:03,752 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:03,752 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:04,144 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:04,507 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:04,507 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:04,871 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:04,872 [INFO] USER:abhinandankumar_giri helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task04
+2025-03-12 15:12:05,230 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:05,230 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:05,600 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:05,600 [INFO] USER:abhinandankumar_giri helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task04_250312.151151
+2025-03-12 15:12:05,966 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:05,966 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:06,373 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:06,739 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:06,740 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:07,110 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:09,212 [INFO] USER:abhinandankumar_giri deployment_processor.py:451:create_deployment_resources LOG: The latest deployment has status failed. Loaded output:
+ {
+    "arn:aws:iam::890742610830:policy/cmtr-3bfb6220-lambda-basic-execution": {
+        "resource_name": "cmtr-3bfb6220-lambda-basic-execution",
+        "resource_meta": {
+            "policy_content": {
+                "Statement": [
+                    {
+                        "Action": [
+                            "logs:CreateLogGroup",
+                            "logs:CreateLogStream",
+                            "logs:PutLogEvents",
+                            "dynamodb:GetItem",
+                            "dynamodb:Query",
+                            "dynamodb:PutItem",
+                            "dynamodb:Batch*",
+                            "dynamodb:DeleteItem",
+                            "ssm:PutParameter",
+                            "ssm:GetParameter",
+                            "kms:Decrypt",
+                            "sqs:ReceiveMessage",
+                            "sqs:DeleteMessage",
+                            "sqs:GetQueueAttributes"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "*"
+                    }
+                ],
+                "Version": "2012-10-17"
+            },
+            "resource_type": "iam_policy",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            }
+        },
+        "description": {
+            "PolicyName": "cmtr-3bfb6220-lambda-basic-execution",
+            "PolicyId": "ANPA46ZDFTOHAC6EWHS74",
+            "Path": "/",
+            "DefaultVersionId": "v1",
+            "AttachmentCount": 3,
+            "PermissionsBoundaryUsageCount": 0,
+            "IsAttachable": true,
+            "CreateDate": "2025-03-11T13:20:51+00:00",
+            "UpdateDate": "2025-03-11T13:20:51+00:00",
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "3bfb6220"
+                }
+            ]
+        }
+    },
+    "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sqs_handler-role": {
+        "resource_name": "cmtr-3bfb6220-sqs_handler-role",
+        "resource_meta": {
+            "predefined_policies": [],
+            "principal_service": "lambda",
+            "custom_policies": [
+                "cmtr-3bfb6220-lambda-basic-execution"
+            ],
+            "resource_type": "iam_role",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            }
+        },
+        "description": {
+            "Path": "/",
+            "RoleName": "cmtr-3bfb6220-sqs_handler-role",
+            "RoleId": "AROA46ZDFTOHMDHWX3V7Y",
+            "CreateDate": "2025-03-11T13:20:54+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600,
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "3bfb6220"
+                }
+            ],
+            "RoleLastUsed": {
+                "LastUsedDate": "2025-03-11T17:56:01+00:00",
+                "Region": "eu-west-1"
+            }
+        }
+    },
+    "arn:aws:sqs:eu-west-1:890742610830:cmtr-3bfb6220-async_queue": {
+        "resource_name": "cmtr-3bfb6220-async_queue",
+        "resource_meta": {
+            "resource_type": "sqs_queue",
+            "fifo_queue": false,
+            "visibility_timeout": 150,
+            "delay_seconds": 0,
+            "maximum_message_size": 1024,
+            "message_retention_period": 60,
+            "receive_message_wait_time_seconds": 0,
+            "policy": {},
+            "redrive_policy": {},
+            "content_based_deduplication": false,
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "region": "eu-west-1"
+        },
+        "description": {
+            "Attributes": {
+                "QueueArn": "arn:aws:sqs:eu-west-1:890742610830:cmtr-3bfb6220-async_queue",
+                "ApproximateNumberOfMessages": "0",
+                "ApproximateNumberOfMessagesNotVisible": "0",
+                "ApproximateNumberOfMessagesDelayed": "0",
+                "CreatedTimestamp": "1741701015",
+                "LastModifiedTimestamp": "1741701015",
+                "VisibilityTimeout": "150",
+                "MaximumMessageSize": "1024",
+                "MessageRetentionPeriod": "60",
+                "DelaySeconds": "0",
+                "ReceiveMessageWaitTimeSeconds": "0",
+                "SqsManagedSseEnabled": "true"
+            },
+            "ResponseMetadata": {
+                "RequestId": "7c13ecd2-b4b1-57f9-a96c-8c99ec4d093e",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amzn-requestid": "7c13ecd2-b4b1-57f9-a96c-8c99ec4d093e",
+                    "date": "Wed, 12 Mar 2025 09:41:16 GMT",
+                    "content-type": "text/xml",
+                    "content-length": "1249",
+                    "connection": "keep-alive"
+                },
+                "RetryAttempts": 0
+            }
+        }
+    },
+    "arn:aws:lambda:eu-west-1:890742610830:function:cmtr-3bfb6220-sqs_handler:dev": {
+        "resource_name": "cmtr-3bfb6220-sqs_handler",
+        "resource_meta": {
+            "version": "1.0",
+            "name": "cmtr-3bfb6220-sqs_handler",
+            "func_name": "lambdas/sqs_handler/index.handler",
+            "resource_type": "lambda",
+            "iam_role_name": "cmtr-3bfb6220-sqs_handler-role",
+            "runtime": "nodejs20.x",
+            "memory": 128,
+            "timeout": 100,
+            "lambda_path": "lambdas\\sqs_handler",
+            "dependencies": [],
+            "event_sources": [
+                {
+                    "resource_type": "sqs_trigger",
+                    "target_queue": "cmtr-3bfb6220-async_queue",
+                    "batch_size": 10
+                }
+            ],
+            "env_variables": {},
+            "publish_version": true,
+            "alias": "dev",
+            "url_config": {},
+            "ephemeral_storage": 512,
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "s3_path": "task04_250312.151033/sqs_handler-1.0.zip",
+            "region": "eu-west-1"
+        },
+        "description": {
+            "ResponseMetadata": {
+                "RequestId": "8d172785-34e8-4eef-bbc4-b5f53061c745",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "date": "Wed, 12 Mar 2025 09:41:26 GMT",
+                    "content-type": "application/json",
+                    "content-length": "2853",
+                    "connection": "keep-alive",
+                    "x-amzn-requestid": "8d172785-34e8-4eef-bbc4-b5f53061c745"
+                },
+                "RetryAttempts": 0
+            },
+            "Configuration": {
+                "FunctionName": "cmtr-3bfb6220-sqs_handler",
+                "Runtime": "nodejs20.x",
+                "Role": "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sqs_handler-role",
+                "Handler": "lambdas/sqs_handler/index.handler",
+                "CodeSize": 1638,
+                "Description": " ",
+                "Timeout": 100,
+                "MemorySize": 128,
+                "LastModified": "2025-03-11T17:54:21.287+0000",
+                "CodeSha256": "k15HZ6W3VW9Ch9pThwXLsMDO4MX8cNH2hnvGzk5Ktgw=",
+                "Version": "$LATEST",
+                "TracingConfig": {
+                    "Mode": "PassThrough"
+                },
+                "RevisionId": "6d01588d-92f7-48c9-b9d9-05add6e2f12c",
+                "Layers": [],
+                "State": "Active",
+                "LastUpdateStatus": "Successful",
+                "PackageType": "Zip",
+                "Architectures": [
+                    "x86_64"
+                ],
+                "EphemeralStorage": {
+                    "Size": 512
+                },
+                "SnapStart": {
+                    "ApplyOn": "None",
+                    "OptimizationStatus": "Off"
+                },
+                "RuntimeVersionConfig": {
+                    "RuntimeVersionArn": "arn:aws:lambda:eu-west-1::runtime:9d084cce5cc7578c503eb8fe4bf7891c94c8f5f0ccb036f3f8c3a01cf5212db6"
+                }
+            },
+            "Code": {
+                "RepositoryType": "S3",
+                "Location": "https://awslambda-eu-west-1-tasks.s3.eu-west-1.amazonaws.com/snapshots/890742610830/cmtr-3bfb6220-sqs_handler-56d605a7-c8f2-4c3b-b215-45f21c02b087?versionId=PoGWFAlMZGgP3NsYLKIrDQxs.BCq3bz7&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGgaCWV1LXdlc3QtMSJHMEUCICxcvCXIC69k0XcRcnuJ7rs8LjPhSRlAFI3%2Fitai8fZNAiEA%2BrlgKxaStv4PdcYmPUi2olT2otdA3qi2Kndj5m1KpkEqkgIIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgw5NTQzNjkwODI1MTEiDApk5HMweGI%2Fg%2BmA3CrmAch8XPGLjLX2%2F2UHemZ%2BDL1UkHsPNQgbnEJ0YujRKEYLdephicThgMg1dYce%2F%2FnNePFiqvx5eZRTg5y%2FUdjCaz3CBIO9k4m%2B%2FUHBFr9l6kksKLz8GFQ37eO3MnDssLOASdWTLDTPhfN5peGALVpKwq9kaz%2B8%2BPozBnqgNcfdwIpEevyzlK87uut3wkwQ4R%2Fx0uIzMq1xlvrZXxsOIEodY2uUmWm3aJY3kQnpROg7c3DCQNv%2B4yh5bhUnCFIK2tKWorOP8%2FKO5IoRYqFgPn4x9btp3s8kl%2FKKOJhBnO03iTtHNSMVe57MMPeew74GOo8B3mjGi%2FfbeJqbRb2ubSs0qR1%2FiNct3HnLJxomPrpSyQA7stenUItM9XZwHi7eP9LBCXWBAlDZRd0q4fcNCR%2F3c2Bh97c7xjYkZB0QtII%2FtR36tWEtBmwtzDzcDuBfiqyDLpg3xl7NfKNOTWrXmdCcfraDUmahu21nLRXYRxBiDoSQurAptjFKt2oYjCaVuzA%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250312T094126Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA54NGUQSH76KP4PCP%2F20250312%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=2fe287d63082578e19e5969ecc0cb680be52def8b3182b8d2c24328b48c3589d"
+            },
+            "Tags": {
+                "run_id": "JAP-11",
+                "user_id": "3bfb6220",
+                "run_type": "stm",
+                "type": "user"
+            }
+        }
+    },
+    "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sns_handler-role": {
+        "resource_name": "cmtr-3bfb6220-sns_handler-role",
+        "resource_meta": {
+            "predefined_policies": [],
+            "principal_service": "lambda",
+            "custom_policies": [
+                "cmtr-3bfb6220-lambda-basic-execution"
+            ],
+            "resource_type": "iam_role",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            }
+        },
+        "description": {
+            "Path": "/",
+            "RoleName": "cmtr-3bfb6220-sns_handler-role",
+            "RoleId": "AROA46ZDFTOHLRA5NNOXA",
+            "CreateDate": "2025-03-12T09:41:04+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "3bfb6220"
+                }
+            ]
+        }
+    },
+    "arn:aws:lambda:eu-west-1:890742610830:function:cmtr-3bfb6220-sns_handler:dev": {
+        "resource_name": "cmtr-3bfb6220-sns_handler",
+        "resource_meta": {
+            "version": "1.0",
+            "name": "cmtr-3bfb6220-sns_handler",
+            "func_name": "lambdas/sns_handler/index.handler",
+            "resource_type": "lambda",
+            "iam_role_name": "cmtr-3bfb6220-sns_handler-role",
+            "runtime": "nodejs20.x",
+            "memory": 128,
+            "timeout": 100,
+            "lambda_path": "lambdas\\sns_handler",
+            "dependencies": [],
+            "event_sources": [
+                {
+                    "resource_type": "sns_topic_trigger",
+                    "target_topic": "cmtr-3bfb6220-lambda_topic",
+                    "region": "eu-west-1"
+                }
+            ],
+            "env_variables": {},
+            "publish_version": true,
+            "alias": "dev",
+            "url_config": {},
+            "ephemeral_storage": 512,
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "s3_path": "task04_250312.151033/sns_handler-1.0.zip",
+            "region": "eu-west-1"
+        },
+        "description": {
+            "ResponseMetadata": {
+                "RequestId": "bc97cc2c-e92b-4a51-8eb7-9905fe4593fc",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "date": "Wed, 12 Mar 2025 09:41:25 GMT",
+                    "content-type": "application/json",
+                    "content-length": "2874",
+                    "connection": "keep-alive",
+                    "x-amzn-requestid": "bc97cc2c-e92b-4a51-8eb7-9905fe4593fc"
+                },
+                "RetryAttempts": 0
+            },
+            "Configuration": {
+                "FunctionName": "cmtr-3bfb6220-sns_handler",
+                "Runtime": "nodejs20.x",
+                "Role": "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sns_handler-role",
+                "Handler": "lambdas/sns_handler/index.handler",
+                "CodeSize": 1632,
+                "Description": " ",
+                "Timeout": 100,
+                "MemorySize": 128,
+                "LastModified": "2025-03-12T09:41:21.036+0000",
+                "CodeSha256": "SHxOYiH4pEhPKqfNTkeY/ah5H4qkgQ0snDP+cO+cRGo=",
+                "Version": "$LATEST",
+                "TracingConfig": {
+                    "Mode": "PassThrough"
+                },
+                "RevisionId": "76d6069c-5633-4fb3-845d-f57e5698194c",
+                "Layers": [],
+                "State": "Pending",
+                "StateReason": "The function is being created.",
+                "StateReasonCode": "Creating",
+                "PackageType": "Zip",
+                "Architectures": [
+                    "x86_64"
+                ],
+                "EphemeralStorage": {
+                    "Size": 512
+                },
+                "SnapStart": {
+                    "ApplyOn": "None",
+                    "OptimizationStatus": "Off"
+                },
+                "RuntimeVersionConfig": {
+                    "RuntimeVersionArn": "arn:aws:lambda:eu-west-1::runtime:9d084cce5cc7578c503eb8fe4bf7891c94c8f5f0ccb036f3f8c3a01cf5212db6"
+                }
+            },
+            "Code": {
+                "RepositoryType": "S3",
+                "Location": "https://awslambda-eu-west-1-tasks.s3.eu-west-1.amazonaws.com/snapshots/890742610830/cmtr-3bfb6220-sns_handler-f82b9dab-b7ca-4bd6-a156-c2a45ab67c08?versionId=5OynKYtFKlqBuSSNecZ3Fow4I.NAFJ54&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGgaCWV1LXdlc3QtMSJIMEYCIQC99769KXCM1RqZxX2HYAVua7No%2FXmqV%2F4OxSBl%2FNGhiQIhAKet%2F6cXx6bNsc0bPkvX4IhQrf11yo9wz0S3I3aVy8rAKpICCLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMOTU0MzY5MDgyNTExIgwBlbyGthCHs5dFLtgq5gGNX7OEWpT0usTyhWzSi5J4zWhRGfn%2FQsJzOm7SzxfzGFZxLMRpu34Ow0wGvDulCZcQI7GH3luu6Vlv4Z%2Fwi1WvdJ2oF5Z6cVIW%2FPB8rbl3j8Gb9SFDFtmUyJURvXaQDyTpXTJSJxhWvljiXTcZOuVigqLJZ1jDdZTFReqykZMEQglmf4g4Zi15u0TbRl%2BH2Sa3qKqB9nKANMEM3Lqyhd8c%2F7n%2BLcHifKG0D9V9nfAVbAWyEZycEoW4kLF6JuWSkNId90xFwx6yqfyiUPUQi%2F2Yx%2BQqNWRhbU%2BrVuLKFemVZYbowfyGfDD5nsO%2BBjqOAVrt5hsBRR821W9Fw%2FtjLVJT%2FfrTDLVTtV69Z3XVaIYAuXqQtrElGXbTq03rEq6pM9cvUFyg15X1tMOUyb7SGyecj1DPySH17Jg3QvRRzuvIoA4EMcWu41I%2Fo0IUwuuNFa8352w9Ej206ssAvDuzLPG0wfr9Bc7gOXRHxzc0sYAoEH2PsZOlMW73MrR%2F9DY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250312T094125Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA54NGUQSHSCFR6P4T%2F20250312%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=0afdd5d81ead16838333c1b454ae8f00b442a4f3e532738aa56c62142313e10a"
+            },
+            "Tags": {
+                "run_id": "JAP-11",
+                "user_id": "3bfb6220",
+                "run_type": "stm",
+                "type": "user"
+            }
+        }
+    }
+}
+2025-03-12 15:12:09,393 [INFO] USER:abhinandankumar_giri deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-03-12 15:12:09,394 [INFO] USER:abhinandankumar_giri deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-03-12 15:12:09,532 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing iam_policy resources
+2025-03-12 15:12:12,119 [WARNING] USER:abhinandankumar_giri iam_resource.py:115:_create_policy_from_meta LOG: IAM policy cmtr-3bfb6220-lambda-basic-execution exists.
+2025-03-12 15:12:13,390 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing iam_role resources
+2025-03-12 15:12:13,710 [WARNING] USER:abhinandankumar_giri iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-3bfb6220-sns_handler-role exists.
+2025-03-12 15:12:14,769 [WARNING] USER:abhinandankumar_giri iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-3bfb6220-sqs_handler-role exists.
+2025-03-12 15:12:14,770 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing sns_topic resources
+2025-03-12 15:12:16,086 [ERROR] USER:abhinandankumar_giri deployment_processor.py:387:process_response LOG: Caused by resource named cmtr-3bfb6220-lambda_topic. An error occurred (AuthorizationError) when calling the ListTopics operation: User: arn:aws:sts::890742610830:assumed-role/cmtr_syndicate_student_programmatic_accessv2/3bfb6220 is not authorized to perform: SNS:ListTopics on resource: arn:aws:sns:eu-central-1:890742610830:* with an explicit deny in a service control policy
+2025-03-12 15:12:16,087 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing sqs_queue resources
+2025-03-12 15:12:19,575 [WARNING] USER:abhinandankumar_giri sqs_resource.py:104:_create_sqs_queue_from_meta LOG: SQS queue cmtr-3bfb6220-async_queue exists.
+2025-03-12 15:12:19,770 [INFO] USER:abhinandankumar_giri deployment_processor.py:88:_process_resources LOG: Processing lambda resources
+2025-03-12 15:12:21,726 [WARNING] USER:abhinandankumar_giri lambda_resource.py:313:_create_lambda_from_meta LOG: cmtr-3bfb6220-sns_handler lambda exists.
+2025-03-12 15:12:22,759 [WARNING] USER:abhinandankumar_giri lambda_resource.py:313:_create_lambda_from_meta LOG: cmtr-3bfb6220-sqs_handler lambda exists.
+2025-03-12 15:12:24,178 [WARNING] USER:abhinandankumar_giri bundle_processor.py:110:remove_failed_deploy_output LOG: Failed output file for deploy task04 does not exist
+2025-03-12 15:12:24,178 [INFO] USER:abhinandankumar_giri deployment_processor.py:527:create_deployment_resources LOG: Going to apply post deployment tags
+2025-03-12 15:12:24,182 [INFO] USER:abhinandankumar_giri group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
+2025-03-12 15:12:24,182 [INFO] USER:abhinandankumar_giri deployment_processor.py:530:create_deployment_resources LOG: Going to create deploy output
+2025-03-12 15:12:25,022 [INFO] USER:abhinandankumar_giri bundle_processor.py:71:create_deploy_output LOG: Output file with name task04_250312.151151/outputs/task04_failed.json has been created
+2025-03-12 15:12:25,022 [INFO] USER:abhinandankumar_giri deployment_processor.py:560:create_deployment_resources LOG: Deploy output for task04 was created.
+2025-03-12 15:12:25,023 [WARNING] USER:abhinandankumar_giri handlers.py:344:deploy LOG: Backend resources were deployed with errors. See deploy output file.
+2025-03-12 15:12:25,023 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:17.913035
+2025-03-12 15:12:25,449 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:25,449 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:25,788 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:31,672 [INFO] USER:abhinandankumar_giri handlers.py:106:syndicate LOG: Configuration used: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:12:33,835 [INFO] USER:abhinandankumar_giri processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:12:35,082 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:35,082 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:35,444 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:36,802 [INFO] USER:abhinandankumar_giri handlers.py:142:test LOG: Running tests...
+2025-03-12 15:12:36,803 [INFO] USER:abhinandankumar_giri handlers.py:150:test LOG: Tests not found, 'tests' folder is missing in 'C:/Users/abhinandankumar_giri/Desktop/Campus Training/aws/Aws-Lambda/task04'.
+2025-03-12 15:12:36,803 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage test, elapsed time: 0:00:00.000562
+2025-03-12 15:12:36,811 [INFO] USER:abhinandankumar_giri handlers.py:993:assemble LOG: Building artifacts, bundle: task04_250312.151235
+2025-03-12 15:12:36,811 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\jsrc\main\java\com\task04.
+2025-03-12 15:12:36,811 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\src\lambdas.
+2025-03-12 15:12:36,811 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas.
+2025-03-12 15:12:36,812 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sns_handler' to the pending ProjectState.
+2025-03-12 15:12:36,812 [INFO] USER:abhinandankumar_giri project_state.py:400:_update_lambdas_from_path LOG: Going to add the following 'nodejs' lambda:'sqs_handler' to the pending ProjectState.
+2025-03-12 15:12:36,812 [INFO] USER:abhinandankumar_giri project_state.py:396:_update_lambdas_from_path LOG: Going to resolve any lambda names from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\dnapp\lambdas.
+2025-03-12 15:12:36,812 [INFO] USER:abhinandankumar_giri project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\swagger_src.
+2025-03-12 15:12:36,812 [INFO] USER:abhinandankumar_giri project_state.py:430:_update_bpm_resources_from_path LOG: Going to resolve any build project mapping dependent resources from a given path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\appsync_src.
+2025-03-12 15:12:36,819 [INFO] USER:abhinandankumar_giri handlers.py:821:assemble_node LOG: Command assemble node: project_path: app 
+2025-03-12 15:12:36,820 [INFO] USER:abhinandankumar_giri nodejs.py:58:assemble_node_lambdas LOG: Going to package lambdas starting by path C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app
+2025-03-12 15:12:36,820 [INFO] USER:abhinandankumar_giri nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas\sns_handler
+2025-03-12 15:12:36,821 [INFO] USER:abhinandankumar_giri nodejs.py:64:assemble_node_lambdas LOG: Going to build artifact in: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\app\lambdas\sqs_handler
+2025-03-12 15:12:37,198 [INFO] USER:abhinandankumar_giri nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev\bundles\task04_250312.151235\sns_handler-1.0
+2025-03-12 15:12:37,198 [INFO] USER:abhinandankumar_giri nodejs.py:123:install_requirements LOG: Artifacts path: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev\bundles\task04_250312.151235\sqs_handler-1.0
+2025-03-12 15:12:37,960 [INFO] USER:abhinandankumar_giri helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 389ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:12:37,960 [INFO] USER:abhinandankumar_giri nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:12:37,963 [INFO] USER:abhinandankumar_giri helper.py:107:execute_command_by_path LOG: Running the command "npm install"
+
+up to date, audited 1 package in 391ms
+
+found 0 vulnerabilities
+
+
+2025-03-12 15:12:37,963 [INFO] USER:abhinandankumar_giri nodejs.py:142:install_requirements LOG: No dependencies folder - nothing to copy.
+2025-03-12 15:12:37,968 [INFO] USER:abhinandankumar_giri handlers.py:830:assemble_node LOG: NodeJS artifacts were prepared successfully.
+2025-03-12 15:12:37,969 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage assemble_node, elapsed time: 0:00:01.149077
+2025-03-12 15:12:37,979 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage assemble, elapsed time: 0:00:01.168684
+2025-03-12 15:12:37,988 [INFO] USER:abhinandankumar_giri handlers.py:1037:package_meta LOG: Package meta, bundle: task04_250312.151235
+2025-03-12 15:12:37,988 [INFO] USER:abhinandankumar_giri meta_processor.py:513:create_meta LOG: Bundle path: C:/Users/abhinandankumar_giri/Desktop/Campus Training/aws/Aws-Lambda/task04/bundles/task04_250312.151235
+2025-03-12 15:12:37,991 [INFO] USER:abhinandankumar_giri helper.py:292:write_content_to_file LOG: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev/bundles/task04_250312.151235\build_meta.json file was created.
+2025-03-12 15:12:37,991 [INFO] USER:abhinandankumar_giri handlers.py:1040:package_meta LOG: Meta was configured successfully.
+2025-03-12 15:12:37,991 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage package_meta, elapsed time: 0:00:00.003632
+2025-03-12 15:12:38,158 [INFO] USER:abhinandankumar_giri handlers.py:1083:upload LOG: Upload bundle: task04_250312.151235
+2025-03-12 15:12:38,482 [INFO] USER:abhinandankumar_giri bundle_processor.py:232:upload_bundle_to_s3 LOG: Bundle was validated successfully
+2025-03-12 15:12:40,506 [INFO] USER:abhinandankumar_giri handlers.py:1090:upload LOG: Bundle was uploaded successfully
+2025-03-12 15:12:40,506 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage upload, elapsed time: 0:00:02.503856
+2025-03-12 15:12:40,515 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage build, elapsed time: 0:00:05.070847
+2025-03-12 15:12:44,205 [INFO] USER:abhinandankumar_giri handlers.py:106:syndicate LOG: Configuration used: C:\Users\abhinandankumar_giri\Desktop\Campus Training\aws\Aws-Lambda\task04\.syndicate-config-dev
+2025-03-12 15:12:46,373 [INFO] USER:abhinandankumar_giri processor.py:143:_prepare_bucket_view LOG: Viewing complement, URIBucketView, has been found, setting up the raw data.
+2025-03-12 15:12:47,609 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:47,609 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:47,971 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:48,317 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:48,317 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:48,713 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:48,713 [INFO] USER:abhinandankumar_giri helper.py:233:resolve_default_value LOG: Resolved value of deploy_name: task04
+2025-03-12 15:12:49,065 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:49,065 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:49,467 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:49,468 [INFO] USER:abhinandankumar_giri helper.py:233:resolve_default_value LOG: Resolved value of bundle_name: task04_250312.151235
+2025-03-12 15:12:49,817 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:49,817 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:50,171 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:50,531 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:12:50,531 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:12:50,896 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
+2025-03-12 15:12:53,872 [INFO] USER:abhinandankumar_giri deployment_processor.py:451:create_deployment_resources LOG: The latest deployment has status failed. Loaded output:
+ {
+    "arn:aws:iam::890742610830:policy/cmtr-3bfb6220-lambda-basic-execution": {
+        "resource_name": "cmtr-3bfb6220-lambda-basic-execution",
+        "resource_meta": {
+            "policy_content": {
+                "Statement": [
+                    {
+                        "Action": [
+                            "logs:CreateLogGroup",
+                            "logs:CreateLogStream",
+                            "logs:PutLogEvents",
+                            "dynamodb:GetItem",
+                            "dynamodb:Query",
+                            "dynamodb:PutItem",
+                            "dynamodb:Batch*",
+                            "dynamodb:DeleteItem",
+                            "ssm:PutParameter",
+                            "ssm:GetParameter",
+                            "kms:Decrypt",
+                            "sqs:ReceiveMessage",
+                            "sqs:DeleteMessage",
+                            "sqs:GetQueueAttributes"
+                        ],
+                        "Effect": "Allow",
+                        "Resource": "*"
+                    }
+                ],
+                "Version": "2012-10-17"
+            },
+            "resource_type": "iam_policy",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            }
+        },
+        "description": {
+            "PolicyName": "cmtr-3bfb6220-lambda-basic-execution",
+            "PolicyId": "ANPA46ZDFTOHAC6EWHS74",
+            "Path": "/",
+            "DefaultVersionId": "v1",
+            "AttachmentCount": 4,
+            "PermissionsBoundaryUsageCount": 0,
+            "IsAttachable": true,
+            "CreateDate": "2025-03-11T13:20:51+00:00",
+            "UpdateDate": "2025-03-11T13:20:51+00:00",
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "3bfb6220"
+                }
+            ]
+        }
+    },
+    "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sqs_handler-role": {
+        "resource_name": "cmtr-3bfb6220-sqs_handler-role",
+        "resource_meta": {
+            "predefined_policies": [],
+            "principal_service": "lambda",
+            "custom_policies": [
+                "cmtr-3bfb6220-lambda-basic-execution"
+            ],
+            "resource_type": "iam_role",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            }
+        },
+        "description": {
+            "Path": "/",
+            "RoleName": "cmtr-3bfb6220-sqs_handler-role",
+            "RoleId": "AROA46ZDFTOHMDHWX3V7Y",
+            "CreateDate": "2025-03-11T13:20:54+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600,
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "3bfb6220"
+                }
+            ],
+            "RoleLastUsed": {
+                "LastUsedDate": "2025-03-11T17:56:01+00:00",
+                "Region": "eu-west-1"
+            }
+        }
+    },
+    "arn:aws:sqs:eu-west-1:890742610830:cmtr-3bfb6220-async_queue": {
+        "resource_name": "cmtr-3bfb6220-async_queue",
+        "resource_meta": {
+            "resource_type": "sqs_queue",
+            "fifo_queue": false,
+            "visibility_timeout": 150,
+            "delay_seconds": 0,
+            "maximum_message_size": 1024,
+            "message_retention_period": 60,
+            "receive_message_wait_time_seconds": 0,
+            "policy": {},
+            "redrive_policy": {},
+            "content_based_deduplication": false,
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "region": "eu-west-1"
+        },
+        "description": {
+            "Attributes": {
+                "QueueArn": "arn:aws:sqs:eu-west-1:890742610830:cmtr-3bfb6220-async_queue",
+                "ApproximateNumberOfMessages": "0",
+                "ApproximateNumberOfMessagesNotVisible": "0",
+                "ApproximateNumberOfMessagesDelayed": "0",
+                "CreatedTimestamp": "1741701015",
+                "LastModifiedTimestamp": "1741701015",
+                "VisibilityTimeout": "150",
+                "MaximumMessageSize": "1024",
+                "MessageRetentionPeriod": "60",
+                "DelaySeconds": "0",
+                "ReceiveMessageWaitTimeSeconds": "0",
+                "SqsManagedSseEnabled": "true"
+            },
+            "ResponseMetadata": {
+                "RequestId": "43f46ac0-b84b-539d-8ffc-0a8be17019be",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amzn-requestid": "43f46ac0-b84b-539d-8ffc-0a8be17019be",
+                    "date": "Wed, 12 Mar 2025 09:42:19 GMT",
+                    "content-type": "text/xml",
+                    "content-length": "1249",
+                    "connection": "keep-alive"
+                },
+                "RetryAttempts": 0
+            }
+        }
+    },
+    "arn:aws:lambda:eu-west-1:890742610830:function:cmtr-3bfb6220-sqs_handler:dev": {
+        "resource_name": "cmtr-3bfb6220-sqs_handler",
+        "resource_meta": {
+            "version": "1.0",
+            "name": "cmtr-3bfb6220-sqs_handler",
+            "func_name": "lambdas/sqs_handler/index.handler",
+            "resource_type": "lambda",
+            "iam_role_name": "cmtr-3bfb6220-sqs_handler-role",
+            "runtime": "nodejs20.x",
+            "memory": 128,
+            "timeout": 100,
+            "lambda_path": "lambdas\\sqs_handler",
+            "dependencies": [],
+            "event_sources": [
+                {
+                    "resource_type": "sqs_trigger",
+                    "target_queue": "cmtr-3bfb6220-async_queue",
+                    "batch_size": 10
+                }
+            ],
+            "env_variables": {},
+            "publish_version": true,
+            "alias": "dev",
+            "url_config": {},
+            "ephemeral_storage": 512,
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "s3_path": "task04_250312.151151/sqs_handler-1.0.zip",
+            "region": "eu-west-1"
+        },
+        "description": {
+            "ResponseMetadata": {
+                "RequestId": "11ac3d56-ac35-43fa-b269-9dca7cb68e85",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "date": "Wed, 12 Mar 2025 09:42:22 GMT",
+                    "content-type": "application/json",
+                    "content-length": "2843",
+                    "connection": "keep-alive",
+                    "x-amzn-requestid": "11ac3d56-ac35-43fa-b269-9dca7cb68e85"
+                },
+                "RetryAttempts": 0
+            },
+            "Configuration": {
+                "FunctionName": "cmtr-3bfb6220-sqs_handler",
+                "Runtime": "nodejs20.x",
+                "Role": "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sqs_handler-role",
+                "Handler": "lambdas/sqs_handler/index.handler",
+                "CodeSize": 1638,
+                "Description": " ",
+                "Timeout": 100,
+                "MemorySize": 128,
+                "LastModified": "2025-03-11T17:54:21.287+0000",
+                "CodeSha256": "k15HZ6W3VW9Ch9pThwXLsMDO4MX8cNH2hnvGzk5Ktgw=",
+                "Version": "$LATEST",
+                "TracingConfig": {
+                    "Mode": "PassThrough"
+                },
+                "RevisionId": "6d01588d-92f7-48c9-b9d9-05add6e2f12c",
+                "Layers": [],
+                "State": "Active",
+                "LastUpdateStatus": "Successful",
+                "PackageType": "Zip",
+                "Architectures": [
+                    "x86_64"
+                ],
+                "EphemeralStorage": {
+                    "Size": 512
+                },
+                "SnapStart": {
+                    "ApplyOn": "None",
+                    "OptimizationStatus": "Off"
+                },
+                "RuntimeVersionConfig": {
+                    "RuntimeVersionArn": "arn:aws:lambda:eu-west-1::runtime:9d084cce5cc7578c503eb8fe4bf7891c94c8f5f0ccb036f3f8c3a01cf5212db6"
+                }
+            },
+            "Code": {
+                "RepositoryType": "S3",
+                "Location": "https://awslambda-eu-west-1-tasks.s3.eu-west-1.amazonaws.com/snapshots/890742610830/cmtr-3bfb6220-sqs_handler-56d605a7-c8f2-4c3b-b215-45f21c02b087?versionId=PoGWFAlMZGgP3NsYLKIrDQxs.BCq3bz7&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGcaCWV1LXdlc3QtMSJGMEQCIBNa%2FKIQzVly6WaxVZGTABm3kBLMhNE7iRMCkehkJPo9AiAKZzrRtkajjepwdaD6YVDxLQhZP0JoEOnkoapq28H4gCqSAgiw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAQaDDk1NDM2OTA4MjUxMSIMVsT7cHWd6eZhXPDEKuYBUAyz9lVByUY3QR84ogleRfPZmSK5C0BO%2BQoapQaZD5aX1NzBfXFFHRivb2hoYzP8tBw6kM3CmPnYPOkF3fa1dBsDqRjfJES3PUK%2FOi9ggYdHfLyH%2BQJt%2Bc4rTyzKPZKvsIz8Tz9672YpFjvYr6mTEb1a6liY5DOlWzv0MtlF4ue1M0Bil%2B2N%2F1PKhtbLsWRt%2Fuc5n7bsKXOF3yUbZFQhvuHp9vNDWH7PoTYktoiE%2F0Kv%2Fr03U%2BGZmJ80yIUdgUSPsUGn4vWB5Jt17PB6U%2BMfsxbuE2Ks4L5XgwB6nMzBp6Ck5JH18SwwvP7CvgY6kAFW8%2BvFrD1jKNmfsjsFCV0oN2ZqH2GRovQLviwGvHi%2BYSd2o1qVfB0f0aZcE6cBHQHpZExtc%2ByHFvWa4%2BLJL7r3aZIP9K6g6I4yGbm4vuCdf8PK9k9G5KcXudglWXCtiDBHJOIerpVw38UwZqVhjCezyHRhU0MJbiqIBuaxl50wZGuxCwjZmKxXVKz3aUE0aYU%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250312T094222Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA54NGUQSHUPBE5445%2F20250312%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=fa80a16a55ca1cf20354fb796738c3d3aba8f6a12d4615a988428ce9aec79142"
+            },
+            "Tags": {
+                "run_id": "JAP-11",
+                "user_id": "3bfb6220",
+                "run_type": "stm",
+                "type": "user"
+            }
+        }
+    },
+    "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sns_handler-role": {
+        "resource_name": "cmtr-3bfb6220-sns_handler-role",
+        "resource_meta": {
+            "predefined_policies": [],
+            "principal_service": "lambda",
+            "custom_policies": [
+                "cmtr-3bfb6220-lambda-basic-execution"
+            ],
+            "resource_type": "iam_role",
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            }
+        },
+        "description": {
+            "Path": "/",
+            "RoleName": "cmtr-3bfb6220-sns_handler-role",
+            "RoleId": "AROA46ZDFTOHLRA5NNOXA",
+            "CreateDate": "2025-03-12T09:41:04+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600,
+            "Tags": [
+                {
+                    "Key": "run_id",
+                    "Value": "JAP-11"
+                },
+                {
+                    "Key": "run_type",
+                    "Value": "stm"
+                },
+                {
+                    "Key": "type",
+                    "Value": "user"
+                },
+                {
+                    "Key": "user_id",
+                    "Value": "3bfb6220"
+                }
+            ],
+            "RoleLastUsed": {}
+        }
+    },
+    "arn:aws:lambda:eu-west-1:890742610830:function:cmtr-3bfb6220-sns_handler:dev": {
+        "resource_name": "cmtr-3bfb6220-sns_handler",
+        "resource_meta": {
+            "version": "1.0",
+            "name": "cmtr-3bfb6220-sns_handler",
+            "func_name": "lambdas/sns_handler/index.handler",
+            "resource_type": "lambda",
+            "iam_role_name": "cmtr-3bfb6220-sns_handler-role",
+            "runtime": "nodejs20.x",
+            "memory": 128,
+            "timeout": 100,
+            "lambda_path": "lambdas\\sns_handler",
+            "dependencies": [],
+            "event_sources": [
+                {
+                    "resource_type": "sns_topic_trigger",
+                    "target_topic": "cmtr-3bfb6220-lambda_topic",
+                    "region": "eu-west-1"
+                }
+            ],
+            "env_variables": {},
+            "publish_version": true,
+            "alias": "dev",
+            "url_config": {},
+            "ephemeral_storage": 512,
+            "tags": {
+                "run_id": "JAP-11",
+                "run_type": "stm",
+                "type": "user",
+                "user_id": "3bfb6220"
+            },
+            "s3_path": "task04_250312.151151/sns_handler-1.0.zip",
+            "region": "eu-west-1"
+        },
+        "description": {
+            "ResponseMetadata": {
+                "RequestId": "aee9d007-97d7-4b71-93cd-f3a6616b69a0",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "date": "Wed, 12 Mar 2025 09:42:22 GMT",
+                    "content-type": "application/json",
+                    "content-length": "2857",
+                    "connection": "keep-alive",
+                    "x-amzn-requestid": "aee9d007-97d7-4b71-93cd-f3a6616b69a0"
+                },
+                "RetryAttempts": 0
+            },
+            "Configuration": {
+                "FunctionName": "cmtr-3bfb6220-sns_handler",
+                "Runtime": "nodejs20.x",
+                "Role": "arn:aws:iam::890742610830:role/cmtr-3bfb6220-sns_handler-role",
+                "Handler": "lambdas/sns_handler/index.handler",
+                "CodeSize": 1632,
+                "Description": " ",
+                "Timeout": 100,
+                "MemorySize": 128,
+                "LastModified": "2025-03-12T09:41:21.036+0000",
+                "CodeSha256": "SHxOYiH4pEhPKqfNTkeY/ah5H4qkgQ0snDP+cO+cRGo=",
+                "Version": "$LATEST",
+                "TracingConfig": {
+                    "Mode": "PassThrough"
+                },
+                "RevisionId": "8aa8240e-61c2-42b9-8494-1c2f7a473c1e",
+                "Layers": [],
+                "State": "Active",
+                "LastUpdateStatus": "Successful",
+                "PackageType": "Zip",
+                "Architectures": [
+                    "x86_64"
+                ],
+                "EphemeralStorage": {
+                    "Size": 512
+                },
+                "SnapStart": {
+                    "ApplyOn": "None",
+                    "OptimizationStatus": "Off"
+                },
+                "RuntimeVersionConfig": {
+                    "RuntimeVersionArn": "arn:aws:lambda:eu-west-1::runtime:9d084cce5cc7578c503eb8fe4bf7891c94c8f5f0ccb036f3f8c3a01cf5212db6"
+                }
+            },
+            "Code": {
+                "RepositoryType": "S3",
+                "Location": "https://awslambda-eu-west-1-tasks.s3.eu-west-1.amazonaws.com/snapshots/890742610830/cmtr-3bfb6220-sns_handler-f82b9dab-b7ca-4bd6-a156-c2a45ab67c08?versionId=5OynKYtFKlqBuSSNecZ3Fow4I.NAFJ54&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHIaCWV1LXdlc3QtMSJHMEUCIQDGuOrtJlTpkixU2CR7XFig5ZR%2FnNQyjfTpwZT9A8f9tQIgCr0Y4k2twto%2Fp5COCwCQ1PW34giLgqe24L5zBUmTOJAqkgIIu%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAEGgw5NTQzNjkwODI1MTEiDGrOTpjj8KczeJJHzSrmAVf5SuBWsbI5aU%2FYo8JnLh2g9pNiSMSPjozAjYTAbhzLV%2FzZcTUKbnbBu6m78KQLwbF950nBuGYmw3uv3yKwwFiLdNcTeUSLWW3UTolJ1j8EvOejy2M3GJCPge6fQGF3CBQjXLv5%2Fondg0yQrfuVF5dn7up0q%2FO0nW6tzjFb%2FWOWN1NwP%2F9N9zidB%2F3a2UC7zOW8I6BXp9b2davPLqBLriSS2GO%2BK%2F3DnGePV9z4Hn%2F94c8x1fc%2B%2BAjPpDDwKByXSMIgUJf83Esic7AiSGTRwpvZtBCAMDNUu7QciYWUFzNJXbbi0osBMO%2Brxb4GOo8BTYI1hPYkCIGUWmPIo4vVS52VpYQcbdfaJuTTTxTi%2Fh2LixCjsNSHd%2BlD%2BkmBBBwvPqkK9RnEka%2FvdEAx%2BqfCltZ4kqSx%2FFfpqIUnA6ObgyD1WWljopJMvUBUHE3yTo7ZVfo8cJlyXixM3TlPRbot%2BdGVAiy7fpZCjFlTqti5mFDeNiEFuZfHKny5v4JTWvo%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250312T094222Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIA54NGUQSHVJYNQTVL%2F20250312%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=cac683ab6d1345068099abbf1b3f5f9e6b84366794e507c0f142c21230bcc33e"
+            },
+            "Tags": {
+                "run_id": "JAP-11",
+                "user_id": "3bfb6220",
+                "run_type": "stm",
+                "type": "user"
+            }
+        }
+    }
+}
+2025-03-12 15:12:54,048 [INFO] USER:abhinandankumar_giri deployment_processor.py:466:create_deployment_resources LOG: Prefixes and suffixes of any resource names have been resolved
+2025-03-12 15:12:54,048 [INFO] USER:abhinandankumar_giri deployment_processor.py:489:create_deployment_resources LOG: Going to deploy AWS resources
+2025-03-12 15:12:54,195 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing iam_policy resources
+2025-03-12 15:12:59,477 [WARNING] USER:abhinandankumar_giri iam_resource.py:115:_create_policy_from_meta LOG: IAM policy cmtr-3bfb6220-lambda-basic-execution exists.
+2025-03-12 15:12:59,782 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing iam_role resources
+2025-03-12 15:13:00,084 [WARNING] USER:abhinandankumar_giri iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-3bfb6220-sns_handler-role exists.
+2025-03-12 15:13:01,126 [WARNING] USER:abhinandankumar_giri iam_resource.py:141:_create_role_from_meta LOG: IAM role cmtr-3bfb6220-sqs_handler-role exists.
+2025-03-12 15:13:01,127 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing sns_topic resources
+2025-03-12 15:13:02,987 [INFO] USER:abhinandankumar_giri sns_resource.py:156:_create_sns_topic_from_meta LOG: SNS topic cmtr-3bfb6220-lambda_topic in region eu-west-1 created.
+2025-03-12 15:13:03,151 [INFO] USER:abhinandankumar_giri deployment_processor.py:74:_process_resources LOG: Processing sqs_queue resources
+2025-03-12 15:13:04,752 [WARNING] USER:abhinandankumar_giri sqs_resource.py:104:_create_sqs_queue_from_meta LOG: SQS queue cmtr-3bfb6220-async_queue exists.
+2025-03-12 15:13:04,908 [INFO] USER:abhinandankumar_giri deployment_processor.py:88:_process_resources LOG: Processing lambda resources
+2025-03-12 15:13:06,905 [WARNING] USER:abhinandankumar_giri lambda_resource.py:313:_create_lambda_from_meta LOG: cmtr-3bfb6220-sqs_handler lambda exists.
+2025-03-12 15:13:06,929 [WARNING] USER:abhinandankumar_giri lambda_resource.py:313:_create_lambda_from_meta LOG: cmtr-3bfb6220-sns_handler lambda exists.
+2025-03-12 15:13:07,922 [WARNING] USER:abhinandankumar_giri bundle_processor.py:110:remove_failed_deploy_output LOG: Failed output file for deploy task04 does not exist
+2025-03-12 15:13:07,922 [INFO] USER:abhinandankumar_giri deployment_processor.py:540:create_deployment_resources LOG: AWS resources were deployed successfully
+2025-03-12 15:13:07,923 [INFO] USER:abhinandankumar_giri deployment_processor.py:543:create_deployment_resources LOG: Going to apply dynamic changes
+2025-03-12 15:13:07,923 [INFO] USER:abhinandankumar_giri deployment_processor.py:545:create_deployment_resources LOG: Dynamic changes were applied successfully
+2025-03-12 15:13:07,923 [INFO] USER:abhinandankumar_giri deployment_processor.py:547:create_deployment_resources LOG: Going to apply post deployment tags
+2025-03-12 15:13:07,928 [INFO] USER:abhinandankumar_giri group_tagging_api_resource.py:135:apply_tags LOG: Tags were successfully applied
+2025-03-12 15:13:07,928 [INFO] USER:abhinandankumar_giri deployment_processor.py:550:create_deployment_resources LOG: Going to create deploy output
+2025-03-12 15:13:09,335 [INFO] USER:abhinandankumar_giri bundle_processor.py:71:create_deploy_output LOG: Output file with name task04_250312.151235/outputs/task04.json has been created
+2025-03-12 15:13:09,335 [INFO] USER:abhinandankumar_giri deployment_processor.py:560:create_deployment_resources LOG: Deploy output for task04 was created.
+2025-03-12 15:13:09,336 [INFO] USER:abhinandankumar_giri handlers.py:347:deploy LOG: Backend resources were deployed.
+2025-03-12 15:13:09,336 [INFO] USER:abhinandankumar_giri helper.py:330:timed LOG: Stage deploy, elapsed time: 0:00:18.440279
+2025-03-12 15:13:09,991 [INFO] USER:abhinandankumar_giri project_state.py:122:get_remote LOG: Unsafely loaded project state file from S3 bucket. The retrieved object has type: dict
+2025-03-12 15:13:09,991 [INFO] USER:abhinandankumar_giri project_state.py:127:get_remote LOG: Made ProjectState object from the dict loaded from S3 bucket
+2025-03-12 15:13:10,379 [INFO] USER:abhinandankumar_giri sync_processor.py:53:sync_project_state LOG: Project state file has been successfully synced
