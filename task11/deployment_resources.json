@@ -14,29 +14,26 @@
             "dynamodb:DeleteItem",
             "ssm:PutParameter",
             "ssm:GetParameter",
-            "kms:Decrypt"
-          ],
-          "Effect": "Allow",
-          "Resource": "*"
-        }
-      ],
-      "Version": "2012-10-17"
-    },
-    "resource_type": "iam_policy"
-  },
-  "lambda-cognito-execution": {
-    "policy_content": {
-      "Statement": [
-        {
-          "Action": [
+            "kms:Decrypt",
+            "logs:CreateLogGroup",
+            "logs:CreateLogStream",
+            "logs:PutLogEvents",
+            "dynamodb:GetItem",
+            "dynamodb:Query",
+            "dynamodb:PutItem",
+            "dynamodb:Batch*",
+            "dynamodb:DeleteItem",
+            "dynamodb:Scan",
+            "cognito-idp:DescribeUserPool",
+            "cognito-idp:GetUser",
+            "cognito-idp:ListUsers",
+            "cognito-idp:AdminCreateUser",
+            "cognito-idp:AdminInitiateAuth",
+            "cognito-idp:GetIdentityProviderByIdentifier",
             "cognito-idp:ListUserPools",
             "cognito-idp:ListUserPoolClients",
-            "cognito-idp:AdminCreateUser",
-            "cognito-idp:AdminConfirmSignUp",
-            "cognito-idp:CreateUserPoolClient",
-            "cognito-idp:AdminInitiateAuth",
             "cognito-idp:AdminRespondToAuthChallenge",
-            "dynamodb:Scan"
+            "cognito-idp:AdminConfirmSignUp"
           ],
           "Effect": "Allow",
           "Resource": "*"
@@ -46,16 +43,7 @@
     },
     "resource_type": "iam_policy"
   },
-  "api_handler-role": {
-    "predefined_policies": [],
-    "principal_service": "lambda",
-    "custom_policies": [
-      "lambda-basic-execution",
-      "lambda-cognito-execution"
-    ],
-    "resource_type": "iam_role"
-  },
-  "simple-booking-userpool": {
+  "${booking_userpool}": {
     "resource_type": "cognito_idp",
     "password_policy": {
       "minimum_length": 8,
@@ -64,19 +52,22 @@
       "require_lowercase": true,
       "require_numbers": true
     },
-    "auto_verified_attributes": [
-      "email"
-    ],
+    "auto_verified_attributes": [],
     "sms_configuration": {},
-    "username_attributes": [
-      "email"
-    ],
+    "username_attributes": [],
     "custom_attributes": [],
     "client": {
-      "client_name": "api_client_syndicate"
+      "client_name": "client-app",
+      "generate_secret": false,
+      "explicit_auth_flows": [
+        "ALLOW_ADMIN_USER_PASSWORD_AUTH",
+        "ALLOW_CUSTOM_AUTH",
+        "ALLOW_USER_SRP_AUTH",
+        "ALLOW_REFRESH_TOKEN_AUTH"
+      ]
     }
   },
-  "Tables": {
+  "${tables_table}": {
     "resource_type": "dynamodb_table",
     "hash_key_name": "id",
     "hash_key_type": "N",
@@ -85,7 +76,7 @@
     "global_indexes": [],
     "autoscaling": []
   },
-  "Reservations": {
+  "${reservations_table}": {
     "resource_type": "dynamodb_table",
     "hash_key_name": "id",
     "hash_key_type": "S",
@@ -109,7 +100,7 @@
             "s3:GetObject"
           ],
           "Resource": [
-            "arn:aws:s3:::api-ui-hoster/*"
+            "arn:aws:s3:::{bucket_name}/*"
           ]
         }
       ]
@@ -120,7 +111,6 @@
       "block_public_policy": false,
       "restrict_public_buckets": false
     },
-    "tags": {},
     "website_hosting": {
       "enabled": true,
       "index_document": "index.html",
